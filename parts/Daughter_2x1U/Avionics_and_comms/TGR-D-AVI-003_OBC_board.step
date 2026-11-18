@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('TGR-D-AVI-003 OBC board, rev A; TIGRE 4U/2U Daughter 2x1U; mm; body coordinates'),'2;1');
-FILE_NAME('TGR-D-AVI-003_OBC_board.step','2026-11-18T21:51:49',('Grover Aruquipa'),('Universite Laval'),'','','');
+FILE_NAME('TGR-D-AVI-003_OBC_board.step','2026-11-18T22:24:28',('Grover Aruquipa'),('Universite Laval'),'','','');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 DATA;

@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('TGR-M-AVI-004 UHF radio (ground and daughter link) (stack connector), rev A; TIGRE 4U/2U Mother 2x2U; mm; body coordinates'),'2;1');
-FILE_NAME('TGR-M-AVI-004_UHF_radio_ground_and_daughter_link_stack_connector.step','2026-11-18T21:51:46',('Grover Aruquipa'),('Universite Laval'),'','','');
+FILE_NAME('TGR-M-AVI-004_UHF_radio_ground_and_daughter_link_stack_connector.step','2026-11-18T22:24:26',('Grover Aruquipa'),('Universite Laval'),'','','');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 DATA;

@@ -206,8 +206,8 @@
      "Solar panel -y (cells)"
     ],
     "+z": [
-     6.0,
-     "GNSS patch antenna"
+     0.0,
+     ""
     ],
     "-z": [
      0.0,
@@ -232,8 +232,8 @@
      "Solar panel -y (cells)"
     ],
     "+z": [
-     1.0,
-     "Link antenna 1"
+     0.0,
+     ""
     ],
     "-z": [
      0.0,

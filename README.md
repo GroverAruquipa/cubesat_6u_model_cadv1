@@ -2,19 +2,14 @@
 
 <p align="center"><img src="renders/stowed_6U.png" width="45%"> <img src="renders/pair_separated.png" width="45%"></p>
 
-TIGRE is a two-body 6U CubeSat for the CSA CUBICS 2026 programme. It launches as a standard 6U and, in orbit,
+TIGRE is a two-body 6U CubeSat for the CSA CUBICS 2026 programme. It launches as a 2x3U (6U) unit and, in orbit,
 separates into a **mother** (2x2U) and a **daughter** (2x1U) joined by a line. A winch in each body pays the line
 out to 500 m and reels it back to 5 m.
 
 | | |
 |---|---|
-<<<<<<< HEAD
-| Mother | 200 x 100 x 227 mm, 3.93 kg |
-| Daughter | 200 x 100 x 113.5 mm, 2.63 kg |
-=======
-| Mother | 200 x 100 x 227 mm, 4.00 kg |
-| Daughter | 200 x 100 x 113.5 mm, 2.57 kg |
->>>>>>> f75cb535e9c7ada01f75f6fbac334b5de1ec62ce
+| Mother | 200 x 100 x 227 mm, 3.78 kg |
+| Daughter | 200 x 100 x 113.5 mm, 2.52 kg |
 | Revision | Rev A, November 2026 |
 | Author | Grover Aruquipa, Université Laval |
 
@@ -35,7 +30,7 @@ Share of the volume taken by equipment in each body, from the solid volume of th
 - `assembly/`: STEP assemblies of the stowed 6U, each body and the winch module
 - `parts/`: every part as STEP and STL, sorted by body and subsystem
 - `glb/`: models for web viewers
-- `BOM_TIGRE_4U2U.xlsx`: mass of every part with its file name, and the purchased components with their datasheets
+- `BOM_TIGRE_4U2U.xlsx`: mass of every part with its source and file name, the purchased components with their datasheets, and a summary by subsystem
 
 Part numbers follow `TGR-<body>-<subsystem>-<NNN>`, for example `TGR-M-WIN-009` (mother, winch, item 9).
 
@@ -43,7 +38,12 @@ Part numbers follow `TGR-<body>-<subsystem>-<NNN>`, for example `TGR-M-WIN-009` 
 
 - Units in mm. Each body's origin is the centre of its separation face, with z pointing into the body.
 - Parts are saved in place: importing all the files of a body rebuilds it without mates.
-- No interferences, at least 0.5 mm of clearance between parts, and protrusions within the 6.5 mm CubeSat limit.
-- Fasteners, connectors and harness routing are not modelled yet.
+- Stowed, the two bodies form a 200 x 100 x 340.5 mm unit for a 2x3U deployer.
+- No interferences and at least 0.5 mm of clearance between parts. Side faces protrude at most 6.0 mm (limit 6.5 mm);
+  nothing protrudes past the rail ends.
+- Masses come from the system mass budget; the BOM gives the source of each mass and the
+  datasheet mass of purchased parts. Fasteners and connectors are not itemised: some allowances include mounting
+  hardware, the rest is covered by the 15 % system margin.
+- Parts marked "candidate" are drawn at mass-budget size; the final choice is open.
 
 © 2026 Grover Aruquipa, Université Laval
