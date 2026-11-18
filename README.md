@@ -8,8 +8,8 @@ out to 500 m and reels it back to 5 m.
 
 | | |
 |---|---|
-| Mother | 200 x 100 x 227 mm, 4.00 kg dry |
-| Daughter | 200 x 100 x 113.5 mm, 2.57 kg dry |
+| Mother | 200 x 100 x 227 mm, 4.00 kg |
+| Daughter | 200 x 100 x 113.5 mm, 2.57 kg |
 | Revision | Rev A, November 2026 |
 | Author | Grover Aruquipa, Université Laval |
 
@@ -19,12 +19,18 @@ out to 500 m and reels it back to 5 m.
 |---|---|---|
 | <img src="renders/mother_open.png" width="250"> | <img src="renders/daughter_open.png" width="250"> | <img src="renders/winch_module.png" width="250"> |
 
+## Volume by subsystem
+
+<p align="center"><img src="volumen_bloques.png" width="85%"></p>
+
+Share of the volume taken by equipment in each body, from the solid volume of the CAD parts.
+
 ## Files
 
 - `assembly/`: STEP assemblies of the stowed 6U, each body and the winch module
 - `parts/`: every part as STEP and STL, sorted by body and subsystem
 - `glb/`: models for web viewers
-- `BOM_TIGRE_4U2U.xlsx`: bill of materials with masses, suppliers and datasheet links
+- `BOM_TIGRE_4U2U.xlsx`: mass of every part with its file name, and the purchased components with their datasheets
 
 Part numbers follow `TGR-<body>-<subsystem>-<NNN>`, for example `TGR-M-WIN-009` (mother, winch, item 9).
 
