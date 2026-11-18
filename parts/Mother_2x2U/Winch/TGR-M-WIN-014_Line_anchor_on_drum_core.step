@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('TGR-M-WIN-014 Line anchor on drum core, rev A; TIGRE 4U/2U Mother 2x2U; mm; body coordinates'),'2;1');
-FILE_NAME('TGR-M-WIN-014_Line_anchor_on_drum_core.step','2026-11-18T19:52:49',('Grover Aruquipa'),('Universite Laval'),'','','');
+FILE_NAME('TGR-M-WIN-014_Line_anchor_on_drum_core.step','2026-11-18T21:51:45',('Grover Aruquipa'),('Universite Laval'),'','','');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 DATA;
@@ -13,8 +13,8 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('Open CASCADE STEP translator 7.9 24',
-  'Open CASCADE STEP translator 7.9 24','',(#8));
+#7 = PRODUCT('Open CASCADE STEP translator 7.9 28',
+  'Open CASCADE STEP translator 7.9 28','',(#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#1329);

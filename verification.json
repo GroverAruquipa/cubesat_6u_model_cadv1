@@ -1,9 +1,9 @@
 {
  "clearance": {
   "Mother_2x2U": {
-   "parts": 92,
+   "parts": 93,
    "pairs_closer_than_0.5_mm": [],
-   "interior_fill_pct": 21.3,
+   "interior_fill_pct": 21.0,
    "solar_cells_cm2": {
     "Solar panel -y": 369.5,
     "Solar panel +y": 369.5,
@@ -44,8 +44,8 @@
      "UHF radio (ground and daughter link)"
     ],
     "Reaction wheel Y": [
-     4.21,
-     "Magnetorquer Z"
+     Infinity,
+     ""
     ],
     "Reaction wheel Z": [
      Infinity,
@@ -71,18 +71,6 @@
      Infinity,
      ""
     ],
-    "Magnetorquer X": [
-     1.5,
-     "Rail +x+y"
-    ],
-    "Magnetorquer Y": [
-     0.5,
-     "Sun sensors and IMU"
-    ],
-    "Magnetorquer Z": [
-     1.81,
-     "Sun sensors and IMU"
-    ],
     "Harness": [
      1.01,
      "Solar panel +y"
@@ -94,7 +82,7 @@
    }
   },
   "Daughter_2x1U": {
-   "parts": 73,
+   "parts": 77,
    "pairs_closer_than_0.5_mm": [],
    "interior_fill_pct": 31.5,
    "solar_cells_cm2": {
@@ -113,8 +101,8 @@
      "Sun sensors and IMU"
     ],
     "EPS board": [
-     2.0,
-     "Inter-body link radio"
+     1.91,
+     "Side closeout strip -y, outer end"
     ],
     "OBC board": [
      1.5,
@@ -137,8 +125,8 @@
      "Magnetorquer X"
     ],
     "Level-wind carriage with eyelet": [
-     5.0,
-     "Solar panel -y"
+     2.9,
+     "Side closeout strip -y, outer end"
     ],
     "Load cell": [
      2.65,
@@ -161,8 +149,8 @@
      "Solar panel -y"
     ],
     "Harness": [
-     1.5,
-     "Remove-before-flight pin"
+     0.8,
+     "Side closeout strip +y, outer end"
     ],
     "Hold-down and release (half)": [
      2.65,
@@ -176,15 +164,15 @@
   "date": "2026-11-18",
   "assemblies": {
    "TIGRE_6U_stowed.step": {
-    "parts": 165,
+    "parts": 170,
     "assembly_nodes": 17
    },
    "TIGRE_Daughter_2x1U.step": {
-    "parts": 73,
+    "parts": 77,
     "assembly_nodes": 8
    },
    "TIGRE_Mother_2x2U.step": {
-    "parts": 92,
+    "parts": 93,
     "assembly_nodes": 8
    },
    "TIGRE_winch_module.step": {
@@ -192,7 +180,7 @@
     "assembly_nodes": 1
    }
   },
-  "part_files_reread_with_same_volume": 165,
+  "part_files_reread_with_same_volume": 170,
   "part_files_failed": 0,
   "interferences": {
    "Mother_2x2U": [],

@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('TGR-M-AVI-012 Harness, rev A; TIGRE 4U/2U Mother 2x2U; mm; body coordinates'),'2;1');
-FILE_NAME('TGR-M-AVI-012_Harness.step','2026-11-18T19:52:50',('Grover Aruquipa'),('Universite Laval'),'','','');
+FILE_NAME('TGR-M-AVI-012_Harness.step','2026-11-18T21:51:46',('Grover Aruquipa'),('Universite Laval'),'','','');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 DATA;
@@ -13,8 +13,8 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('Open CASCADE STEP translator 7.9 66',
-  'Open CASCADE STEP translator 7.9 66','',(#8));
+#7 = PRODUCT('Open CASCADE STEP translator 7.9 70',
+  'Open CASCADE STEP translator 7.9 70','',(#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = SHAPE_REPRESENTATION('',(#11,#15,#19),#23);
@@ -44,8 +44,8 @@ GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#27)) GLOBAL_UNIT_ASSIGNED_CONTEXT(
 #30 = PRODUCT_DEFINITION_SHAPE('','',#31);
 #31 = PRODUCT_DEFINITION('design','',#32,#35);
 #32 = PRODUCT_DEFINITION_FORMATION('','',#33);
-#33 = PRODUCT('Open CASCADE STEP translator 7.9 66.1',
-  'Open CASCADE STEP translator 7.9 66.1','',(#34));
+#33 = PRODUCT('Open CASCADE STEP translator 7.9 70.1',
+  'Open CASCADE STEP translator 7.9 70.1','',(#34));
 #34 = PRODUCT_CONTEXT('',#2,'mechanical');
 #35 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #36 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#37),#190);
@@ -238,14 +238,14 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #197 = ITEM_DEFINED_TRANSFORMATION('','',#11,#15);
 #198 = PRODUCT_DEFINITION_SHAPE('Placement','Placement of an item',#199
   );
-#199 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('149','','',#5,#31,$);
+#199 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('150','','',#5,#31,$);
 #200 = PRODUCT_RELATED_PRODUCT_CATEGORY('part',$,(#33));
 #201 = SHAPE_DEFINITION_REPRESENTATION(#202,#208);
 #202 = PRODUCT_DEFINITION_SHAPE('','',#203);
 #203 = PRODUCT_DEFINITION('design','',#204,#207);
 #204 = PRODUCT_DEFINITION_FORMATION('','',#205);
-#205 = PRODUCT('Open CASCADE STEP translator 7.9 66.2',
-  'Open CASCADE STEP translator 7.9 66.2','',(#206));
+#205 = PRODUCT('Open CASCADE STEP translator 7.9 70.2',
+  'Open CASCADE STEP translator 7.9 70.2','',(#206));
 #206 = PRODUCT_CONTEXT('',#2,'mechanical');
 #207 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #208 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#209),#362);
@@ -438,7 +438,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #369 = ITEM_DEFINED_TRANSFORMATION('','',#11,#19);
 #370 = PRODUCT_DEFINITION_SHAPE('Placement','Placement of an item',#371
   );
-#371 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('150','','',#5,#203,$);
+#371 = NEXT_ASSEMBLY_USAGE_OCCURRENCE('151','','',#5,#203,$);
 #372 = PRODUCT_RELATED_PRODUCT_CATEGORY('part',$,(#205));
 ENDSEC;
 END-ISO-10303-21;
