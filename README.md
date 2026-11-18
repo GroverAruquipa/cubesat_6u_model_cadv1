@@ -8,8 +8,13 @@ out to 500 m and reels it back to 5 m.
 
 | | |
 |---|---|
+<<<<<<< HEAD
 | Mother | 200 x 100 x 227 mm, 3.93 kg |
 | Daughter | 200 x 100 x 113.5 mm, 2.63 kg |
+=======
+| Mother | 200 x 100 x 227 mm, 4.00 kg |
+| Daughter | 200 x 100 x 113.5 mm, 2.57 kg |
+>>>>>>> f75cb535e9c7ada01f75f6fbac334b5de1ec62ce
 | Revision | Rev A, November 2026 |
 | Author | Grover Aruquipa, Université Laval |
 
