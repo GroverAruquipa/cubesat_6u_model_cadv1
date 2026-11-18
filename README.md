@@ -2,7 +2,7 @@
 
 <p align="center"><img src="renders/stowed_6U.png" width="45%"> <img src="renders/pair_separated.png" width="45%"></p>
 
-TIGRE is a two-body 6U CubeSat for the CSA CUBICS 2026 programme. It launches as a 2x3U (6U) unit and, in orbit,
+ The launches as a 2x3U (6U) unit and, in orbit,
 separates into a **mother** (2x2U) and a **daughter** (2x1U) joined by a line. A winch in each body pays the line
 out to 500 m and reels it back to 5 m.
 
@@ -10,7 +10,6 @@ out to 500 m and reels it back to 5 m.
 |---|---|
 | Mother | 200 x 100 x 227 mm, 3.78 kg |
 | Daughter | 200 x 100 x 113.5 mm, 2.52 kg |
-| Revision | Rev A, November 2026 |
 | Author | Grover Aruquipa, Université Laval |
 
 ## Views
@@ -37,13 +36,6 @@ Part numbers follow `TGR-<body>-<subsystem>-<NNN>`, for example `TGR-M-WIN-009` 
 ## Notes
 
 - Units in mm. Each body's origin is the centre of its separation face, with z pointing into the body.
-- Parts are saved in place: importing all the files of a body rebuilds it without mates.
-- Stowed, the two bodies form a 200 x 100 x 340.5 mm unit for a 2x3U deployer.
-- No interferences and at least 0.5 mm of clearance between parts. Side faces protrude at most 6.0 mm (limit 6.5 mm);
-  nothing protrudes past the rail ends.
-- Masses come from the system mass budget; the BOM gives the source of each mass and the
-  datasheet mass of purchased parts. Fasteners and connectors are not itemised: some allowances include mounting
-  hardware, the rest is covered by the 15 % system margin.
-- Parts marked "candidate" are drawn at mass-budget size; the final choice is open.
 
-© 2026 Grover Aruquipa, Université Laval
+
+ 2026 Grover Aruquipa, Université Laval
