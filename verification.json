@@ -1,0 +1,257 @@
+{
+ "clearance": {
+  "Mother_2x2U": {
+   "parts": 92,
+   "pairs_closer_than_0.5_mm": [],
+   "interior_fill_pct": 21.3,
+   "solar_cells_cm2": {
+    "Solar panel -y": 369.5,
+    "Solar panel +y": 369.5,
+    "Solar panel -x": 174.6,
+    "Solar panel +x": 125.6
+   },
+   "min_clearance_mm": {
+    "Battery 4x18650 (cells)": [
+     1.5,
+     "Side wall +x"
+    ],
+    "Battery 4x18650 (cell holders)": [
+     2.05,
+     "Langmuir probe electronics module"
+    ],
+    "EPS board": [
+     0.56,
+     "Rail -x-y"
+    ],
+    "OBC board": [
+     0.56,
+     "Rail -x-y"
+    ],
+    "Langmuir probe electronics module": [
+     1.17,
+     "Hold-down and release (half)"
+    ],
+    "UHF radio (ground and daughter link)": [
+     0.56,
+     "Rail -x-y"
+    ],
+    "S-band transmitter": [
+     0.56,
+     "Rail -x-y"
+    ],
+    "Reaction wheel X": [
+     4.95,
+     "UHF radio (ground and daughter link)"
+    ],
+    "Reaction wheel Y": [
+     4.21,
+     "Magnetorquer Z"
+    ],
+    "Reaction wheel Z": [
+     Infinity,
+     ""
+    ],
+    "Drum": [
+     1.0,
+     "Fixed hollow axle"
+    ],
+    "Wound line, 296 m": [
+     3.37,
+     "Level-wind limit switch"
+    ],
+    "Level-wind carriage with eyelet": [
+     5.0,
+     "Solar panel -y"
+    ],
+    "Load cell": [
+     9.37,
+     "Wound line, 296 m"
+    ],
+    "GNSS receiver": [
+     Infinity,
+     ""
+    ],
+    "Magnetorquer X": [
+     1.5,
+     "Rail +x+y"
+    ],
+    "Magnetorquer Y": [
+     0.5,
+     "Sun sensors and IMU"
+    ],
+    "Magnetorquer Z": [
+     1.81,
+     "Sun sensors and IMU"
+    ],
+    "Harness": [
+     1.01,
+     "Solar panel +y"
+    ],
+    "Hold-down and release (half)": [
+     1.17,
+     "Langmuir probe electronics module"
+    ]
+   }
+  },
+  "Daughter_2x1U": {
+   "parts": 73,
+   "pairs_closer_than_0.5_mm": [],
+   "interior_fill_pct": 31.5,
+   "solar_cells_cm2": {
+    "Solar panel -y": 166.5,
+    "Solar panel +y": 166.5,
+    "Solar panel -x": 78.7,
+    "Solar panel +x": 78.7
+   },
+   "min_clearance_mm": {
+    "Battery 4x18650 (cells)": [
+     0.5,
+     "Side wall +x"
+    ],
+    "Battery 4x18650 (cell holders)": [
+     0.7,
+     "Sun sensors and IMU"
+    ],
+    "EPS board": [
+     2.0,
+     "Inter-body link radio"
+    ],
+    "OBC board": [
+     1.5,
+     "Langmuir probe electronics module"
+    ],
+    "Langmuir probe electronics module": [
+     1.5,
+     "OBC board"
+    ],
+    "Inter-body link radio": [
+     1.0,
+     "Drum"
+    ],
+    "Drum": [
+     1.0,
+     "Inter-body link radio"
+    ],
+    "Wound line, 296 m": [
+     2.9,
+     "Magnetorquer X"
+    ],
+    "Level-wind carriage with eyelet": [
+     5.0,
+     "Solar panel -y"
+    ],
+    "Load cell": [
+     2.65,
+     "Hold-down and release (half)"
+    ],
+    "GNSS receiver": [
+     4.25,
+     "Wound line, 296 m"
+    ],
+    "Magnetorquer X": [
+     0.5,
+     "Solar panel +y"
+    ],
+    "Magnetorquer Y": [
+     0.5,
+     "Sun sensors and IMU"
+    ],
+    "Magnetorquer Z": [
+     0.5,
+     "Solar panel -y"
+    ],
+    "Harness": [
+     1.5,
+     "Remove-before-flight pin"
+    ],
+    "Hold-down and release (half)": [
+     2.65,
+     "Load cell"
+    ]
+   }
+  }
+ },
+ "export": {
+  "revision": "A",
+  "date": "2026-11-18",
+  "assemblies": {
+   "TIGRE_6U_stowed.step": {
+    "parts": 165,
+    "assembly_nodes": 17
+   },
+   "TIGRE_Daughter_2x1U.step": {
+    "parts": 73,
+    "assembly_nodes": 8
+   },
+   "TIGRE_Mother_2x2U.step": {
+    "parts": 92,
+    "assembly_nodes": 8
+   },
+   "TIGRE_winch_module.step": {
+    "parts": 31,
+    "assembly_nodes": 1
+   }
+  },
+  "part_files_reread_with_same_volume": 165,
+  "part_files_failed": 0,
+  "interferences": {
+   "Mother_2x2U": [],
+   "Daughter_2x1U": []
+  },
+  "stowed_clashes": [],
+  "max_protrusion_mm": {
+   "Mother_2x2U": {
+    "+x": [
+     6.0,
+     "S-band patch antenna"
+    ],
+    "-x": [
+     3.2,
+     "Solar panel -x (cells)"
+    ],
+    "+y": [
+     6.0,
+     "Langmuir probe sensor (ram face)"
+    ],
+    "-y": [
+     3.2,
+     "Solar panel -y (cells)"
+    ],
+    "+z": [
+     6.0,
+     "GNSS patch antenna"
+    ],
+    "-z": [
+     0.0,
+     ""
+    ]
+   },
+   "Daughter_2x1U": {
+    "+x": [
+     3.2,
+     "Solar panel +x (cells)"
+    ],
+    "-x": [
+     3.2,
+     "Solar panel -x (cells)"
+    ],
+    "+y": [
+     6.0,
+     "Langmuir probe sensor (ram face)"
+    ],
+    "-y": [
+     3.2,
+     "Solar panel -y (cells)"
+    ],
+    "+z": [
+     1.0,
+     "Link antenna 1"
+    ],
+    "-z": [
+     0.0,
+     ""
+    ]
+   }
+  }
+ }
+}

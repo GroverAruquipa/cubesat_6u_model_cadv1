@@ -1,0 +1,6 @@
+# CAD exchange files: no text diffs
+*.step binary
+*.stl binary
+*.glb binary
+*.png binary
+*.xlsx binary
